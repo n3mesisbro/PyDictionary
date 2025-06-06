@@ -1,4 +1,4 @@
-# PyDictionary by N3mesis 
+# PyDictionary by ne0mesys 
 This is my first made ethical hacking tool that allows users to generate dictionaries for cybersecurity purposes. 
 
 The software, allows penetration testers to input personal data of a target in order to create a massive number of combinations, resulting in a comprehensive custom dictionary. The current version of the software is v1.0. It currently enables to enter input with a 'name', 
@@ -7,5 +7,5 @@ The software, allows penetration testers to input personal data of a target in o
 You are welcome to taste it, download it and improve it yourself! However, REMEMBER to stay tuned for the next updates. 
 
 This tool is developed strictly for educational and ethical purposes. I DO NOT take any responsibility for the misuse of this tool. 
-By N3mesis
+By ne0mesys
 Version 1.0
