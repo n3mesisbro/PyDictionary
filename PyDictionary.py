@@ -43,7 +43,7 @@ nc = "\033[00m"  # Reset color
 
 # Global variables
 version = "1.0"
-creator = "N3mesis"
+creator = "ne0mesys"
 
 logo = f"""
     {red}_______          _____  ___          ___  ___
@@ -65,10 +65,10 @@ logo = f"""
 # Functions
 def exit_message(signum, frame): 
     print(f"{red}\n\n\n[!] Terminating program...{nc}\n")
-    print(f"{green}By N3mesis{red} [v{version}]{nc}\n\n")
+    print(f"{green}By {creator}{red} [v{version}]{nc}\n\n")
     sys.exit(0)
 
-# Register the handler ffor the SIGINT sign (Ctrl+C)
+# Register the handler for the SIGINT sign (Ctrl+C)
 signal.signal(signal.SIGINT, exit_message)
 
 def clear_console():
