@@ -12,7 +12,7 @@ All rights reserved.
 
 MIT License
 
-Copyright (c) 2024 N3mesis
+Copyright (c) 2025 ne0mesys
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,18 +57,18 @@ logo = f"""
                                                                 {" "*19}{red}[v{version}]
                                                                  {" "*11} {green}[By {creator}]
 
-{red}[+] {nc}Welcome to PyDictionary, I hope you enjoy it :)
+{red}[+] {nc}Welcome to PyDictionary, I hope you guys enjoy it :)
 
-{red}[+]{yellow} Press Enter after each input. Leave blank and press Enter to stop.{nc}
+{red}[+]{yellow} Press Enter after each input. Press Ctrl + C to exit.{nc}
 """
 
 # Functions
 def exit_message(signum, frame): 
     print(f"{red}\n\n\n[!] Terminating program...{nc}\n")
-    print(f"{green}By {creator}{red} [v{version}]{nc}\n\n")
+    print(f"{yellow}[+]{nc} By {creator}{nc}{yellow} [v{version}]{nc}\n\n")
     sys.exit(0)
 
-# Register the handler for the SIGINT sign (Ctrl+C)
+# Register the handler ffor the SIGINT sign (Ctrl+C)
 signal.signal(signal.SIGINT, exit_message)
 
 def clear_console():
@@ -110,7 +110,7 @@ def collect_data():
             current_line = "; ".join([item.split(": ")[1] for item in collected_data])
             print(f"\n{nc}{current_line}{'; ' if current_line else ''}{nc}", end="", flush=True)
 
-            print(f"\n\n{yellow}[+] {cyan}Type 'none' when there is no data. Leave blank and press Enter to stop.{nc}")
+            print(f"\n\n{yellow}[+] {cyan}Type 'none' when there is no data. Press Ctrl + C to exit.{nc}")
             print(f"\n{yellow}[+] {nc}Input for {yellow}{field}{nc} = ", end="", flush=True)
             user_input = input().strip()
 
@@ -527,7 +527,7 @@ def generate_combinations(data, fruits, verdura, numbers, cities, words, colores
 if __name__ == "__main__":
     # Display the logo with typewriter effect
     typewriter_with_cursor(logo, delay=0.005)
-    input(f"\n{red}[+] {cyan}Press Enter to continue...{nc}")
+    input(f"{red}[+] {cyan}Press Enter to continue...{nc}")
 
     # Collect data from the user
     data = collect_data()
