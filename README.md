@@ -42,7 +42,7 @@ or
 python3 --version
 ```
 
-If you have **Python** installed, just download the **PyDictionary.py** file.
+If you have **Python** installed, proceed to the next step.
 
 if you **DON'T** have it, install it using these commands:
 ```
