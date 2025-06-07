@@ -15,33 +15,78 @@ By ne0mesys
 
 ## Requirements
 
+### For Linux 
+
 Python 3 is required to run this software. In case you don't have it installed it, you can find the installation instructions below. 
 ```
 sudo apt update && sudo apt upgrade
 sudo apt install python3
  ```
 
-## Installation
+### For Windows 
 
-Here's a short documentation about how to install the software: 
+Here's a short documentation about how to install the requirements for Windows users:
+
+* Download Python 3 in the Microsoft Store.
+
+### For Arch Linux
+
+Here's a short documentation about how to install the requirements for Arch Linux users:
+
+First, verify whether you have Python installed or not: 
+```
+python --version
+```
+or 
+```
+python3 --version
+```
+
+If you have **Python** installed, just download the **PyDictionary.py** file.
+
+if you **DON'T** have it, install it using these commands:
+```
+sudo pacman -S python
+sudo pacman -S python-pip
+```
+
+## Installation 
+
+### For Linux & Arch Linux
+
+Here's a short documentation about how to install the software for Linux users: 
 ```
 sudo apt install git 
 sudo git clone https://github.com/ne0mesys/PyDictionary.git
 cd PyDictionary
 ```
 
+### For Windows
+
+Download the **PyDictionary.py** file. 
+
 ## Execution
 
-Once we are in the same folder of the software, we can proceed to enable its execution. 
+### For Linux & Arch Linux
+
+Once we are in the same folder of the software, we can proceed to enable its execution for Linux users. 
 
 The software includes the Shebang line  ``` #!/usr/bin/env python3 ``` which allows the user to execute it directly, here's a quick guide about the two different ways to execute the software:
+* Firstly, we give execution permissions to the file: 
 ```
 sudo chmod +x PyDictionary.py
+```
+* Secondly, we execute the program:
 
-# Execution
+```
 ./PyDictionary.py
 python3 PyDictionary.py
 ```
+
+### For Windows
+
+*Right-click* over the **PyDictionary.py** file, and open with the Python 3 software. 
+
 
 ## Usage 
 
