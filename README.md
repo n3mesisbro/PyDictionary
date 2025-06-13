@@ -1,4 +1,4 @@
-# PyDictionary by ne0mesys 
+# 📕 PyDictionary by ne0mesys 
 *This is my first script, I hope you guys enjoy it :)* 
 
 ## Welcome
