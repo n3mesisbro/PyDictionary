@@ -52,11 +52,20 @@ sudo pacman -S python-pip
 
 ## Installation 
 
-### For Linux & Arch Linux
+### For Linux 
 
 Here's a short documentation about how to install the software for Linux users: 
 ```
 sudo apt install git 
+sudo git clone https://github.com/ne0mesys/PyDictionary.git
+cd PyDictionary
+```
+
+### For Arch Linux
+
+Here's a short documentation about how to install the software for Arch Linux users:
+```
+sudo pacman -S git
 sudo git clone https://github.com/ne0mesys/PyDictionary.git
 cd PyDictionary
 ```
